@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048CB06E1A1D86AC003D16E8 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CB06D1A1D86AC003D16E8 /* SettingsTableViewController.m */; };
+		049246811A1D723600D0A5D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049246801A1D723600D0A5D5 /* main.m */; };
+		049246841A1D723600D0A5D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049246831A1D723600D0A5D5 /* AppDelegate.m */; };
+		049246871A1D723600D0A5D5 /* iPhuz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 049246851A1D723600D0A5D5 /* iPhuz.xcdatamodeld */; };
+		0492468A1A1D723600D0A5D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049246891A1D723600D0A5D5 /* ViewController.m */; };
+		0492468D1A1D723600D0A5D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0492468B1A1D723600D0A5D5 /* Main.storyboard */; };
+		0492468F1A1D723600D0A5D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0492468E1A1D723600D0A5D5 /* Images.xcassets */; };
+		049246921A1D723600D0A5D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049246901A1D723600D0A5D5 /* LaunchScreen.xib */; };
+		0492469E1A1D723600D0A5D5 /* iPhuzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0492469D1A1D723600D0A5D5 /* iPhuzTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		049246981A1D723600D0A5D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049246731A1D723600D0A5D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0492467A1A1D723600D0A5D5;
+			remoteInfo = iPhuz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048CB06C1A1D86AC003D16E8 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		048CB06D1A1D86AC003D16E8 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		0492467B1A1D723600D0A5D5 /* iPhuz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhuz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0492467F1A1D723600D0A5D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049246801A1D723600D0A5D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		049246821A1D723600D0A5D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		049246831A1D723600D0A5D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		049246861A1D723600D0A5D5 /* iPhuz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iPhuz.xcdatamodel; sourceTree = "<group>"; };
+		049246881A1D723600D0A5D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		049246891A1D723600D0A5D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0492468C1A1D723600D0A5D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0492468E1A1D723600D0A5D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		049246911A1D723600D0A5D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		049246971A1D723600D0A5D5 /* iPhuzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhuzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0492469C1A1D723600D0A5D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0492469D1A1D723600D0A5D5 /* iPhuzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhuzTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049246781A1D723600D0A5D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049246941A1D723600D0A5D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049246721A1D723600D0A5D5 = {
+			isa = PBXGroup;
+			children = (
+				0492467D1A1D723600D0A5D5 /* iPhuz */,
+				0492469A1A1D723600D0A5D5 /* iPhuzTests */,
+				0492467C1A1D723600D0A5D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0492467C1A1D723600D0A5D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0492467B1A1D723600D0A5D5 /* iPhuz.app */,
+				049246971A1D723600D0A5D5 /* iPhuzTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0492467D1A1D723600D0A5D5 /* iPhuz */ = {
+			isa = PBXGroup;
+			children = (
+				049246821A1D723600D0A5D5 /* AppDelegate.h */,
+				049246831A1D723600D0A5D5 /* AppDelegate.m */,
+				049246881A1D723600D0A5D5 /* ViewController.h */,
+				049246891A1D723600D0A5D5 /* ViewController.m */,
+				0492468B1A1D723600D0A5D5 /* Main.storyboard */,
+				0492468E1A1D723600D0A5D5 /* Images.xcassets */,
+				049246901A1D723600D0A5D5 /* LaunchScreen.xib */,
+				049246851A1D723600D0A5D5 /* iPhuz.xcdatamodeld */,
+				0492467E1A1D723600D0A5D5 /* Supporting Files */,
+				048CB06C1A1D86AC003D16E8 /* SettingsTableViewController.h */,
+				048CB06D1A1D86AC003D16E8 /* SettingsTableViewController.m */,
+			);
+			path = iPhuz;
+			sourceTree = "<group>";
+		};
+		0492467E1A1D723600D0A5D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0492467F1A1D723600D0A5D5 /* Info.plist */,
+				049246801A1D723600D0A5D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0492469A1A1D723600D0A5D5 /* iPhuzTests */ = {
+			isa = PBXGroup;
+			children = (
+				0492469D1A1D723600D0A5D5 /* iPhuzTests.m */,
+				0492469B1A1D723600D0A5D5 /* Supporting Files */,
+			);
+			path = iPhuzTests;
+			sourceTree = "<group>";
+		};
+		0492469B1A1D723600D0A5D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0492469C1A1D723600D0A5D5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0492467A1A1D723600D0A5D5 /* iPhuz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049246A11A1D723600D0A5D5 /* Build configuration list for PBXNativeTarget "iPhuz" */;
+			buildPhases = (
+				049246771A1D723600D0A5D5 /* Sources */,
+				049246781A1D723600D0A5D5 /* Frameworks */,
+				049246791A1D723600D0A5D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPhuz;
+			productName = iPhuz;
+			productReference = 0492467B1A1D723600D0A5D5 /* iPhuz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		049246961A1D723600D0A5D5 /* iPhuzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049246A41A1D723600D0A5D5 /* Build configuration list for PBXNativeTarget "iPhuzTests" */;
+			buildPhases = (
+				049246931A1D723600D0A5D5 /* Sources */,
+				049246941A1D723600D0A5D5 /* Frameworks */,
+				049246951A1D723600D0A5D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049246991A1D723600D0A5D5 /* PBXTargetDependency */,
+			);
+			name = iPhuzTests;
+			productName = iPhuzTests;
+			productReference = 049246971A1D723600D0A5D5 /* iPhuzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		049246731A1D723600D0A5D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = JackCable;
+				TargetAttributes = {
+					0492467A1A1D723600D0A5D5 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					049246961A1D723600D0A5D5 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 0492467A1A1D723600D0A5D5;
+					};
+				};
+			};
+			buildConfigurationList = 049246761A1D723600D0A5D5 /* Build configuration list for PBXProject "iPhuz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 049246721A1D723600D0A5D5;
+			productRefGroup = 0492467C1A1D723600D0A5D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0492467A1A1D723600D0A5D5 /* iPhuz */,
+				049246961A1D723600D0A5D5 /* iPhuzTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		049246791A1D723600D0A5D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0492468D1A1D723600D0A5D5 /* Main.storyboard in Resources */,
+				049246921A1D723600D0A5D5 /* LaunchScreen.xib in Resources */,
+				0492468F1A1D723600D0A5D5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049246951A1D723600D0A5D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049246771A1D723600D0A5D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049246841A1D723600D0A5D5 /* AppDelegate.m in Sources */,
+				049246811A1D723600D0A5D5 /* main.m in Sources */,
+				048CB06E1A1D86AC003D16E8 /* SettingsTableViewController.m in Sources */,
+				0492468A1A1D723600D0A5D5 /* ViewController.m in Sources */,
+				049246871A1D723600D0A5D5 /* iPhuz.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049246931A1D723600D0A5D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0492469E1A1D723600D0A5D5 /* iPhuzTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		049246991A1D723600D0A5D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0492467A1A1D723600D0A5D5 /* iPhuz */;
+			targetProxy = 049246981A1D723600D0A5D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0492468B1A1D723600D0A5D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0492468C1A1D723600D0A5D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		049246901A1D723600D0A5D5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049246911A1D723600D0A5D5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0492469F1A1D723600D0A5D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		049246A01A1D723600D0A5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		049246A21A1D723600D0A5D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iPhuz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		049246A31A1D723600D0A5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iPhuz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		049246A51A1D723600D0A5D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iPhuzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPhuz.app/iPhuz";
+			};
+			name = Debug;
+		};
+		049246A61A1D723600D0A5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iPhuzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPhuz.app/iPhuz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049246761A1D723600D0A5D5 /* Build configuration list for PBXProject "iPhuz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0492469F1A1D723600D0A5D5 /* Debug */,
+				049246A01A1D723600D0A5D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049246A11A1D723600D0A5D5 /* Build configuration list for PBXNativeTarget "iPhuz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049246A21A1D723600D0A5D5 /* Debug */,
+				049246A31A1D723600D0A5D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049246A41A1D723600D0A5D5 /* Build configuration list for PBXNativeTarget "iPhuzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049246A51A1D723600D0A5D5 /* Debug */,
+				049246A61A1D723600D0A5D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		049246851A1D723600D0A5D5 /* iPhuz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				049246861A1D723600D0A5D5 /* iPhuz.xcdatamodel */,
+			);
+			currentVersion = 049246861A1D723600D0A5D5 /* iPhuz.xcdatamodel */;
+			path = iPhuz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 049246731A1D723600D0A5D5 /* Project object */;
+}
